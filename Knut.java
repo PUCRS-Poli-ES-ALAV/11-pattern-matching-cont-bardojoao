@@ -10,7 +10,7 @@ public class Knut {
     static int iteraction = 0;
 
     public static void test() {
-        int[] power = new int[] { 1, 10, 100, 1000, 10000, 100000 };
+        int[] power = new int[] { 1, 10, 100, 1000, 10000, 100000, 1000000, 10000000 };
         String toMatch = "111";
         for (int pow : power) {
             String test = generateText(((5 * pow)));
