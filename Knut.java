@@ -10,6 +10,7 @@ public class Knut {
     static int iteraction = 0;
 
     public static void test() {
+        System.out.println("A complexidade no pior caso é O(N)");
         int[] power = new int[] { 1, 10, 100, 1000, 10000, 100000, 1000000, 10000000 };
         String toMatch = "111";
         for (int pow : power) {
